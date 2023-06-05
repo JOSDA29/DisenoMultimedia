@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Geologica';
+}
+
+/*GENERALES*/
+
+.menu {
+    background: rgb(36,40,43);
+    color: rgb(225,225,225);
+    height: 80px;
+    font-family: 'Geologica';
+    border-bottom: #1293d4 solid 5px;
+}
+
+#texto {
+    padding: 25px 120px;
+    float: left;
+    font-size: 25px;
+}
+
+#diseno {
+    display: inline;
+    margin-top: 25px;
+}
+
+
+#multimedia {
+    color: #1293d4;
+    display: inline;
+    margin-top: 25px;
+}
+
+#nav {
+    float: right;
+    padding: 28px 120px 30px;
+    font-size: 18px;
+}
+
+ul li {
+    display: inline;
+    
+}
+
+ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(225,225,225);
+}
+
+ul li a:hover {
+    color: #1293d4;
+}
+
+.clear {
+    clear: both;
+}
+
+/*INICIO*/
+#fondo{
+    height: 450px;
+    width: 135  0px;
+    background-image: url(/images/cabecera.jpg);
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+}
+
+#fondo img {
+    height: auto;
+    width: auto;
+}
+
+.introduccion{
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(225,225,225);
+}
+
+.introduccion h1 {
+    padding-top: 150px;
+    font-size: 50px;
+    
+}
+
+.introduccion p {
+    padding: 0 150px;
+}
+
+.subscripcion {
+    background: rgb(36, 40, 43);
+    color: rgb(225,225,225);
+    height: 80px;
+    padding: 20px 30px;
+    
+}
+
+.subscripcion h2 {
+    float: left;
+    padding: 0 100px;
+}
+
+.subscripcion form {
+    float: right;
+    padding: 0 100px;
+}
+
+#correo {
+    padding: 10px 50px;
+}
+
+#sub {
+    background: rgb(232, 73, 29);
+    padding: 10px 20px;
+    color: rgb(225,225,225);
+}
+
+.cursos {
+    text-align: center;
+    padding: 50px 120px;
+}
+
+.curso {
+    display: inline-block;
+    width: 350px;
+    height: 230px;
+}
+
+.curso img {
+    width: 100px;
+    height: 100px;
+}
+
+.curso h3 {
+    font-size: 20px;
+    padding: 20px;
+}
+
+footer{
+    background: rgb(18,147,212);
+    height: 80px;
+    text-align: center;
+    color: rgb(225,225,225);
+    padding-top: 30px;
+}
+
+/*NOSOTROS*/
+
+.contenedor {
+    float: left;
+    text-align: left;
+    width: 1000px;
+    padding: 20px 0 20px 120px;
+    
+}
+
+.contenedor img {
+    width: 880px;
+    height: 200px;
+}
+
+#first {
+    padding: 20px 0;
+}
+
+#second {
+    background: rgb(53,66,74);
+    color: rgb(225,225,225);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.extra {
+    color: rgb(225,225,225);
+    float: right;
+    text-align: left;
+    width: 450px;
+    padding: 20px 130px 20px 0;
+}
+
+#extracont {
+    background: rgb(53,66,74);
+    padding: 20px;
+}
+
+#extracont h3 {
+    padding: 15px 0;
+}
+
+/*SERVICIOS*/
+.servicios {
+    background: rgb(230,230,230);
+    margin: 10px 0;
+    padding: 50px 20px;
+}
+
+.servicios h4 {
+    padding: 10px 0;
+    font-size: 18px;
+}
+.servicios p {
+    padding: 10px 0;
+}
+
+/*CONTACTO*/
+#contacto{
+    padding-bottom: 10px;
+}
+
+.extra img {
+    width: 320px;
+    height: 267px;
+    margin-top: 10px;
+}
+
+.contenedor input {
+    padding: 10px 20px;
+    margin: 0 0 10px 0;
+}
+
+#nombre, #email, #telefono, #celular {
+    width: 880px;
+    text-align: left;    
+}
+
+#enviar{
+    margin: 10px 0 0 0;
+    width: 880px;
+    background: rgb(232,73,29);
+    color: rgb(225,225,225);
+    text-align: center;
+}
